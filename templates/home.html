@@ -1,0 +1,13 @@
+{% block pagecontent %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automate the boring stuff with django</title>
+</head>
+<body>
+    <h2>home page</h2>
+    <a href="{% url 'import_data' %}">import data</a>
+</body>
+</html>
+{% endblock %}
